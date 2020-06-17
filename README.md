@@ -7,12 +7,15 @@ This is project of Postgresql database for Ergast data source with F1 data.
 ## Migrations
 
 Database project itself consists of migrations set and tool to deploy migrations to new or existing database. 
-Use alias for migration file creator: 
-alias newmig=./toolset/migrations/create_new_sql_migr.sh 
+Use alias for migration file creator:
+~~~
+alias newmig=./toolset/migrations/create_new_sql_migr.sh
+~~~
  
 To create new sql file as migration call creator with operation name as parameter based on next explanation: 
-
-'newmig operation_object_name'
+~~~
+newmig operation_object_name
+~~~
 
 There operation is one of the next values: 
   
