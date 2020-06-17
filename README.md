@@ -6,7 +6,7 @@ This is project of Postgresql database for Ergast data source with F1 data.
 
 ## Migrations
 
-Database project itself consists of migrations set and tool to deploy migrations to new or existing database. 
+Database project itself consists of migration set and tool to deploy migrations to new or existing database. 
 Use alias for migration file creator:
 ~~~
 alias newmig=./toolset/migrations/create_new_sql_migr.sh
