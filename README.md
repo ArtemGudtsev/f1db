@@ -14,22 +14,22 @@ alias newmig=./toolset/migrations/create_new_sql_migr.sh
  
 To create new sql file as migration call creator with operation name as parameter based on next explanation: 
 ~~~
-newmig operation_object_name
+newmig <operation>_<object>_<name>
 ~~~
 
-There operation is one of the next values: 
+There ```<operation>``` is one of the next values: 
   
 1. create 
 2. update 
 3. drop 
 
-object is one of the next values: 
+```<object>``` is one of the next values: 
 
 1. table 
 2. view 
 3. sp 
 
-name is name of objects affected by migration. 
+```<name>``` is name of objects affected by migration. 
 
 It is strongly recommended to use one migration script per one object. 
 
