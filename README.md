@@ -34,7 +34,9 @@ name is name of objects affected by migration.
 It is strongly recommended to use one migration script per one object. 
 
 As result will be created empty sql file as new migration with next format: 
+~~~
 <date>_<time>_<operation>_<object>_<name>.sql 
+~~~
 Check exampple below for details. 
 
 ### Example
