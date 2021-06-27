@@ -6,7 +6,8 @@ select
     d.driverid as DriverId,
     d.forename as Name,
     d.surname as Surname,
-    ds.position as Position from drivers as d
+    ds.position as Position,
+    r.raceid as RaceId from drivers as d
 inner join driver_standings as ds on d.driverid = ds.driverid
 inner join races as r on ds.raceid = r.raceid
-order by r.year, r.round, ds.position
+order by r.year, r.round, ds.position;
